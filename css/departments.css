@@ -1,0 +1,89 @@
+.navContainer {
+   width: 65%;
+   margin: 2% auto;
+}
+
+.navItems {
+   display: grid;
+   grid-template-columns: 1fr auto;
+}
+
+.leftContainer {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.leftContainer h1 {
+   font-size: 25px;
+   text-transform: uppercase;
+   font-family: sans-serif;
+}
+
+.rightContainer {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.rightContainer a {
+   font-size: 17px;
+   font-weight: 100;
+   margin-left: 15px;
+   font-family: sans-serif;
+   text-decoration: none;
+   color: black;
+}
+
+.departmentsPage{
+   width: 100%;
+   height: 10vh;
+   background-color:  rgb(1, 3, 74);
+}
+
+.departmentsPageHeader{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.departmentsPageHeader h1{
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #fff;
+}
+
+.departmentsList{
+   width: 70%;
+   margin: 2% auto;
+}
+
+.boxes{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+.box{
+   box-shadow: 0px 0px 10px rgb(1, 3, 74);
+   height: 30vh;
+   border-radius: 10px;
+}
+
+.boxHeader{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.boxHeader h1{
+   color:  rgb(1, 3, 74);
+   font-size: 20px;
+   font-family: sans-serif;
+   text-align: center;
+}
+.hero{
+   background-image: url(2.jpg);
+}

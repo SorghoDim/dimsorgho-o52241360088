@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin from body */
+    padding: 0; /* Remove default padding from body */
+}
+
+/* Navigation bar styles */
+.navcontainer {
+    background-color: #04111b; /* Light blue */
+    color: #ffffff; /* White text */
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Evenly distribute space between elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px 20px; /* Add some padding inside the navigation container */
+}
+
+.navitem {
+    display: flex; /* Arrange elements within .navitem horizontally */
+}
+
+.leftcontainer {
+    flex: 1; /* Make the left container take up more space */
+}
+
+.rightContainer {
+   text-align: center; /* Arrange list items horizontally */
+   font-family: 'Courier New', Courier, monospace;
+   color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none; /* Remove default bullet points */
+    margin: 0 10px; /* Add some margin between list items */
+}
+
+nav ul li a {
+    color: #020101; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Add some padding around links */
+    border-radius: 5px; /* Add rounded corners for a smoother look */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition effect for hover */
+}
+
+nav ul li a:hover {
+    background-color: #5b5f61; /* Slightly darker blue on hover */
+}
+
+/* Form styles */
+.formContainer {
+    width: 500px; /* Set a fixed width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding inside the form */
+    border: 1px solid #ddd; /* Add a thin border */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Add some space between form groups */
+}
+
+label {
+    display: block; /* Make labels appear on separate lines */
+    margin-bottom: 5px; /* Add some space below labels */
+}
+
+input[type="text"] {
+    width: 100%; /* Make input fields take up the full width */
+    padding: 10px; /* Add some padding inside input fields */
+    border: 1px solid #ddd; /* Add a thin border */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+input[type="submit"] {
+    background-color: #3498db; /* Blue button background */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add some padding inside the button */
+    border: none; /* Remove default border from buttons */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Indicate that it's a clickable button */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition effect on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+/* Responsiveness (optional) */
+@media (max-width: 768px) {
+    .navcontainer {
+        flex-wrap: wrap; /* Wrap navigation items to fit smaller screens */
+        justify-content: center; /* Center navigation items horizontally on smaller screens */
+    }
+
+    .formContainer {
+        width: 90%; /* Make the form take up almost the entire width on smaller screens */
+    }
+}

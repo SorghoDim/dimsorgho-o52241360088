@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    margin: 0; /* Remove default margin from body */
+    padding: 0; /* Remove default padding from body */
+}
+
+/* Navigation bar styles */
+.navcontainer {
+    background-color: #3498db; /* Light blue */
+    color: #fff; /* White text */
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Evenly distribute space between elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px 20px; /* Add some padding inside the navigation container */
+}
+
+.navitem {
+    display: flex; /* Arrange elements within .navitem horizontally */
+}
+
+.leftcontainer {
+    flex: 1; /* Make the left container take up more space */
+}
+
+.rightContainer {
+    display: flex; /* Arrange list items horizontally */
+}
+
+nav ul li {
+    list-style: none; /* Remove default bullet points */
+    margin: 0 10px; /* Add some margin between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Add some padding around links */
+    border-radius: 5px; /* Add rounded corners for a smoother look */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition effect for hover */
+}
+
+nav ul li a:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+/* Header styles */
+.header {
+    padding: 20px; /* Add some padding to the header */
+    text-align: center; /* Center the text in the header */
+}
+
+/* Faculty boxes styles */
+.row1-container, .row2-container {
+    display: flex; /* Arrange boxes horizontally */
+    flex-wrap: wrap; /* Wrap boxes to fit on multiple lines if needed */
+    justify-content: space-between; /* Evenly distribute space between boxes */
+    margin: 0 auto; /* Center the boxes horizontally */
+    width: 80%; /* Set a maximum width for the container */
+}
+
+.box {
+    width: 25%; /* Set a fixed width for each box */
+    margin: 10px; /* Add some margin between boxes */
+    text-align: center; /* Center the content inside boxes */
+    padding: 20px; /* Add some padding inside boxes */
+    box-sizing: border-box; /* Include padding in box width calculations */
+    background-color: #f1f1f1; /* Light gray background */
+    border: 1px solid #ddd; /* Add a thin border */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition effect for hover */
+}
+
+.box:hover {
+    background-color: #e0e0e0; /* Slightly lighter gray on hover */
+}
+
+.box.cyan {
+    background-color: #4CAF50; /* Green color for the box */
+}
+
+.box.red {
+    background-color: #F44336; /* Red color for the box */
+}
+
+.box.orange {
+    background-color: #FF9800; /* Orange color for the box */
+}
+
+.box.blue {
+    background-color: #2980B9; /* Blue color for the box */
+}
+
+.box p {
+    margin-bottom: 10px; /* Add some space below the paragraph */
+}
+
+/* Footer styles */
+.footerContainer {
+    background-color: #3498db; /* Light blue */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Add some padding to the footer */
+    text-align: center; /* Center the text in the footer */
+}
+
+.footerItem h1 {
+    margin-bottom: 5px; /* Add some space between footer elements */
+}
+
+/* Responsiveness (optional) */
+@media (max
